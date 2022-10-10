@@ -1,0 +1,12 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "common": "libs/common",
+    "dokumente": "libs/dokumente",
+    "karte": "libs/karte",
+    "konten": "libs/konten",
+    "portal": "apps/portal",
+    "portal-e2e": "apps/portal-e2e"
+  }
+}

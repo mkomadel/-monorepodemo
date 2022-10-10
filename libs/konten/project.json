@@ -1,0 +1,22 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/konten/src",
+  "prefix": "dcb",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/konten"],
+      "options": {
+        "jestConfig": "libs/konten/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["libs/konten/**/*.ts", "libs/konten/**/*.html"]
+      }
+    }
+  },
+  "tags": ["scope:feature"]
+}
